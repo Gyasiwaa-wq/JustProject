@@ -1,0 +1,49 @@
+body{
+    padding: 3px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background: url(./image.jpg);
+    background-size: cover;
+    height: 90px;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    
+}
+
+.list_item{
+    justify-content: space-between;
+    margin: 5px;
+    margin-top: 50px;
+    color: rgb(179, 114, 17);
+    padding-right: 20px;
+}
+
+.just{
+    text-decoration: none;
+    color: rgb(25, 123, 189);
+}
+
+.nav_link{
+    text-decoration: none;
+    color: rgb(247, 244, 244);
+    background-color: rgb(3, 65, 3);
+    padding: 8px;
+}
+
+#topic{
+    text-align: center;
+    color:rgb(3, 65, 3) ;
+}
+
+h3{
+    text-align: center;
+}
+
+
